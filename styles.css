@@ -1,0 +1,50 @@
+body {
+    background: #BDBDBD;
+    margin: 0;
+}
+
+div{
+    box-sizing:border-box;
+}
+
+header {
+    background: white;
+    margin: none;
+    padding: 1px;
+}
+.post{
+    background: white;
+    margin-top: 80px;
+}
+
+.post img{
+    width: 100%;
+}
+
+.post h2, .post p {
+    padding: 15px;
+    margin: 0;
+}
+
+.post p{
+    margin-bottom: 80px;
+}
+.container{
+    width: 600px;
+    margin: auto
+}
+
+.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%
+
+}
+
+.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray
+
+}
